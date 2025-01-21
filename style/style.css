@@ -111,7 +111,7 @@ body {
 .ligne-bloc {
     font-family: 'lecitroncamordregular', sans-serif;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 1.5%;
     font-size: 1.3em;
     font-weight: 500;
     text-align: center;
@@ -263,61 +263,146 @@ img {
 }
 
 
-.horizontal-gallery {
-    display: flex;                
-    flex-wrap: nowrap;            
-    overflow-x: auto;             
-    overflow-y: hidden;           
-    gap: 1rem;                    
-    scroll-behavior: smooth;      
-    padding: 0.3rem 0;       
-}
-  
-
-.horizontal-gallery::-webkit-scrollbar {
-    height: 5px;                  
-    background-color: #fff;    
-}
-.horizontal-gallery::-webkit-scrollbar-thumb {
-    background-color: #3c0d9c;    
-    border-radius: 5px;           
-}
-  
-
-.horizontal-gallery .card {
-    min-width: 300px;   
-    flex-shrink: 0;     
-    border: none;       
-    box-shadow: none;   
-}
-  
-
-.card-body {
-    background-color: #fff4ad;
-    border-color: #3c0d9c;
+/* Style pour la section Actualités */
+.container.actus {
+    padding: 2rem;
+    background-color: rgba(255, 244, 173, 0.8);
+    border-radius: 8px;
+    max-width: 1200px;
+    margin-bottom: -3rem;
+    margin-top: 8rem;
 }
 
-.card-text {
-    font-size: 1rem;  
-    color: #3c0d9c;
-    text-align: center; 
-}
-  
-#Archives h2 {
+.container.actus h1 {
+    text-align: center;
     color: #3c0d9c;
     font-size: 3rem;
+    margin-bottom: 0.6rem;
+}
+
+.container.actus h3 {
+    text-align: center;
+    color: #3c0d9c;
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+.citronnade {
+    color: #3c0d9c;
+    font-size: 1.7rem;
+}
+
+
+.text-reset{
+    cursor: pointer;
+}
+
+
+/* Section des lots de partenaires */
+.archives h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #3c0d9c;
     margin-bottom: 1rem;
 }
 
-.archive-description {
-    font-size: 1.7rem; 
-    color: #3c0d9c;     
+.scrolling-wrapper {
+    display: flex;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+    gap: 1rem;
 }
- 
-.horizontal-gallery .card-img-top {
-    object-fit: cover;   
-    max-height: 300px;   
+
+.scrolling-wrapper::-webkit-scrollbar {
+    height: 8px;
+}
+
+.scrolling-wrapper::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.scrolling-wrapper::-webkit-scrollbar-thumb {
+    background-color: #3c0d9c;
+    border-radius: 4px;
+}
+
+.card {
+    flex: 0 0 auto;
+    width: 200px;
+    background-color: transparent; 
+    border: none;
+    box-shadow: none;
+    border-radius: 10px;
+}
+
+.year {
+    margin-top: 0.5rem; 
+    text-align: center; 
+    color: #3c0d9c;
+}
+
+.img-archiv {
     width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Customisation du carousel */
+.carousel-item {
+    padding: 2rem 0;
+}
+
+.carousel-item .caption {
+    padding: 1rem;
+}
+
+.carousel-item h3 {
+    font-size: 2rem;
+    color: #3c0d9c;
+}
+
+.carousel-item p {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.4;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.carousel-indicators button {
+    width: 12px;              
+    height: 12px;
+    border: none;
+    opacity: 0.7;             
+    transition: background-color 0.3s;
+}
+  
+
+.carousel-indicators .active {
+    background-color: #3c0d9c; 
+    opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(25%);
+}
+
+
+.carousel-wrapper {
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;  
+}
+
+.carousel,
+.carousel-inner,
+.carousel-item {
+  height: 100%;
 }
   
 
@@ -393,30 +478,6 @@ img {
         background-color: transparent;
     }
 
-    #Archives h2 {
-        font-size: 2rem;   
-        margin-bottom: 0.5rem;
-    }
-    
-
-    .archive-description {
-        font-size: 1.2rem; 
-    }
-    
-
-    .horizontal-gallery .card {
-        min-width: 200px;  
-    }
-    
-
-    .horizontal-gallery .card-img-top {
-        max-height: 200px; 
-    }
-    
-     
-    .card-text {
-        font-size: 0.9rem;
-    }
 }
     
 
@@ -480,28 +541,4 @@ img {
         background-color: transparent;
     }
 
-    #Archives h2 {
-        font-size: 2rem;   
-        margin-bottom: 0.5rem;
-    }
-    
-
-    .archive-description {
-        font-size: 1.2rem; 
-    }
-    
-
-    .horizontal-gallery .card {
-        min-width: 200px;  
-    }
-    
-
-    .horizontal-gallery .card-img-top {
-        max-height: 200px; 
-    }
-    
-     
-    .card-text {
-        font-size: 0.9rem;
-    }
 }
