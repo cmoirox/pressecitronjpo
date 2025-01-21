@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trophée Presse Citron/BnF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <link rel="icon" type="image/png" href="./images/favicon-vide.png"/>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <!-- Conteneur principal qui occupe toute la hauteur -->
+    <div class="container-fluid main-container d-flex flex-column min-vh-100 p-0">
+        <header class="navbar fixed-top navbar-expand-lg navbar-light bg-custom px-1">
+            <div class="container">
+                <!-- Bouton hamburger -->
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation" style="background-color: transparent; border: none;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu de navigation centré -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#participate">Participation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#presentation">Présentation</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#agenda">Agenda</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="flex-grow-1 d-flex">
+            <div class="background-fixed">
+                <!-- Fond fixe, optionnellement vide ou avec du contenu -->
+            </div>
+
+            <!-- Image en haut à gauche pour les versions responsives -->
+            <img src="./images/logo-responsive.png" class="img-responsive-top-left d-block d-md-none" alt="Image Responsive">
+
+            <div class="container-fluid">
+                <!-- Première ligne pour le contenu principal -->
+                <div class="row">
+                    <!-- Colonne gauche pour l'image -->
+                    <div class="col-lg-3 col-md-4 d-none d-md-block sidebar">
+                        <img src="./images/titre.png" class="img-fluid" alt="Image Côté Gauche">
+                    </div>
+
+                    <!-- Colonne principale pour le contenu -->
+                    <div class="col-lg-7 col-md-8 col-sm-12 d-flex flex-column align-items-center">
+                        <!-- Section Participer -->
+                        <section class="section d-flex flex-column custom-margin p-2" id="participate">
+                            <div class="ligne-bloc text-center">
+                                Le Trophée Presse Citron / BnF est de retour !
+                                <br/>Pour participer au concours, envoyez vos dessins avant le 15 mars 2025.
+                            </div>
+                            <div class="d-flex flex-lg-row flex-column align-items-center justify-content-center">
+                                <a class="btn btn-custom-color" href="./participation.html" role="button">ENVOYER MES DESSINS</a>
+                            </div>
+                        </section>
+
+                        <!-- Section Présentation -->
+                        <div class="presentation container-fluid flex-column align-items-center justify-content-center my-4" id="presentation">
+                            <!-- <h1>Présentation</h1> -->
+                            <h3>
+                                À&nbsp;l’occasion de&nbsp;la&nbsp;Semaine de&nbsp;la&nbsp;Presse et des Médias, l’École&nbsp;Estienne organise, en&nbsp;partenariat avec&nbsp;la&nbsp;BnF, l’association Dessinez&nbsp;Créez Liberté et&nbsp;la&nbsp;Mairie du&nbsp;13<sup>e</sup> arrondissement, la&nbsp;nouvelle édition du&nbsp;Trophée&nbsp;Presse&nbsp;Citron/BnF. Ce&nbsp;double concours, ouvert aux&nbsp;étudiants et&nbsp;aux&nbsp;dessinateurs professionnels, a&nbsp;pour&nbsp;objectif de&nbsp;soutenir et&nbsp;de&nbsp;développer le&nbsp;dessin de&nbsp;presse et la liberté d'expression.
+                            </h3>
+                            <a class="btn btn-custom my-2" href="./media/dossier_de_presse_2025.pdf" target="_blank">DOSSIER DE PRESSE<!-- &nbsp;DU&nbsp;CONCOURS&nbsp;&Eacute;TUDIANTS --></a>
+                            <a class="btn btn-custom my-2" href="./media/communique_de_presse_2025.pdf" target="_blank">COMMUNIQUÉ DE PRESSE<!-- &nbsp;DU&nbsp;CONCOURS&nbsp;&Eacute;TUDIANTS --></a>
+                        </div>
+
+                        <!-- Section Agenda -->
+                        <div class="agenda container-fluid my-4" id="agenda">
+                            <h1>Agenda</h1>
+                            <section class="row">
+                                <article class="column col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h3>Déroulement du concours</h3>
+                                    <hr>
+                                    <div class="row align-items-center">
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <h2>janvier, février, mars</h2>
+                                        </article>
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <p>blabla</p>
+                                        </article>
+                                    </div>
+                                    <hr>
+                                    <div class="row align-items-center">
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <h2>19 janvier</h2>
+                                        </article>
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <p>blabla</p>
+                                        </article>
+                                    </div>
+                                    <hr>
+                                    <div class="row align-items-center">
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <h2>15 mars</h2>
+                                        </article>
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <p>blabla</p>
+                                        </article>
+                                    </div>
+                                    <hr>
+                                    <div class="row align-items-center">
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <h2>18 mars</h2>
+                                        </article>
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <p>blabla</p>
+                                        </article>
+                                    </div>
+                                    <hr>
+                                    <div class="row align-items-center">
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <h2>19 - 26 mars</h2>
+                                        </article>
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                          <p>Vote en ligne</p>
+                                        </article>
+                                    </div>
+                                    <hr>
+                                </article>
+                
+                                <article class="column col-12 col-sm-12 col-md-12 col-lg-6">
+                                    <h3>Expositions et événements</h3>
+                                    <hr>
+                                    <div class="row align-items-center">
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <h2>1er - 15 mars</h2>
+                                        </article>
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <p>blabla</p>
+                                        </article>
+                                    </div>
+                                    <hr>
+                                    <div class="row align-items-center">
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <h2>28 mars</h2>
+                                        </article>
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <p>blabla</p>
+                                        </article>
+                                    </div>
+                                    <hr>
+                                    <div class="row align-items-center">
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <h2>18 mars - 5 avril</h2>
+                                        </article>
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <p>blabla</p>
+                                        </article>
+                                    </div>
+                                    <hr>
+                                    <div class="row align-items-center">
+                                      <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <h2>20 - 30 mars</h2>
+                                        </article>
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <p>blabla</p>
+                                        </article>
+                                    </div>
+                                    <hr>
+                                    <div class="row align-items-center">
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <h2>à partir du 28 mars</h2>
+                                        </article>
+                                        <article class="col-12 col-sm-12 col-md-12 col-lg-6">
+                                            <p>blabla</p>
+                                        </article>
+                                    </div>
+                                    <hr>
+                                </article>
+                            </section>
+                        </div>
+                    </div>
+
+                    <!-- Colonne droite -->
+                    <div class="col-lg-2 col-md-4 d-none d-md-block sidebar-right">
+                        <img src="./images/32eme.png" class="img-fluid" alt="Image Côté Droit">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer bg-custom text-center py-3">
+            <!-- Contenu du footer si nécessaire -->
+        </footer>
+    </div>
+    <!-- Inclusion des scripts Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<script>
+    document.querySelectorAll('a.nav-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href').substring(1); // Récupère l'ID de l'ancre
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                e.preventDefault();
+                const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                const elementPosition = targetElement.offsetTop;
+                const offsetPosition = elementPosition - navbarHeight;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script>
+</html>
