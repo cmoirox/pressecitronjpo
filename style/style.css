@@ -96,7 +96,7 @@ body {
 }
 
 .custom-margin {
-    margin-top: 41rem;
+    margin-top: 40rem;
     margin-bottom: 10rem;
     align-items: center;
 }
@@ -184,7 +184,7 @@ img {
 .navbar-nav {
     align-items: center;
     background-color: #fff4ad;
-    margin-left: 15rem;
+    margin-left: 10rem;
 }
 
 .navbar {
@@ -251,7 +251,13 @@ img {
     color: #3c0d9c;
 }
 
-
+@media screen and (min-width: 1200px) {
+    .custom-margin {
+        margin-top: 48rem;
+        margin-bottom: 5rem;
+        /* Autres ajustements spécifiques aux grands écrans si nécessaire */
+    }
+}
 
 @media (max-width: 1199.98px) {
     body {
