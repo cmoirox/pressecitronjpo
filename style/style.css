@@ -247,9 +247,8 @@ img {
 }
 
 .agenda h2 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #3c0d9c;
-    text-decoration: underline;
 }
 
 .agenda h3 {
@@ -389,9 +388,17 @@ img {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    filter: invert(25%);
+    filter: invert(55%);
+    margin-top: 22rem;
 }
 
+.carousel-control-next-icon {
+    margin-left: 5rem;
+}
+
+.carousel-control-prev-icon {
+    margin-right: 5rem;
+}
 
 .carousel-wrapper {
     min-height: 600px;
@@ -404,7 +411,15 @@ img {
 .carousel-item {
   height: 100%;
 }
+
+.custom-spacing-x1 {
+    margin-bottom: 1.5rem;
+}
   
+  
+.custom-spacing-x2 {
+    margin-bottom: 3rem;
+}
 
 @media screen and (min-width: 1200px) {
     
@@ -539,6 +554,11 @@ img {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         background-color: transparent;
+    }
+
+    .agenda h2 {
+        font-size: 1.4rem;
+        color: #3c0d9c;
     }
 
 }
