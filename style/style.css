@@ -288,9 +288,14 @@ img {
 
 .citronnade {
     color: #3c0d9c;
+    font-style: italic;
     font-size: 1.7rem;
 }
 
+.citronnade2 {
+    color: #3c0d9c;
+    font-size: 1.7rem;
+}
 
 .text-reset{
     cursor: pointer;
@@ -338,6 +343,7 @@ img {
     margin-top: 0.5rem; 
     text-align: center; 
     color: #3c0d9c;
+    font-size: 1.2rem;
 }
 
 .img-archiv {
@@ -388,8 +394,8 @@ img {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    filter: invert(55%);
-    margin-top: 22rem;
+    filter: invert(100%);
+    margin-top: 38rem;
 }
 
 .carousel-control-next-icon {
@@ -419,6 +425,10 @@ img {
   
 .custom-spacing-x2 {
     margin-bottom: 3rem;
+}
+
+.no-underline {
+    text-decoration: none;
 }
 
 @media screen and (min-width: 1200px) {
@@ -493,6 +503,20 @@ img {
         background-color: transparent;
     }
 
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(100%);
+        margin-top: 40rem;
+    }
+
+    .carousel-control-next-icon {
+        margin-left: 0rem;
+    }
+
+    .carousel-control-prev-icon {
+        margin-right: 0rem;
+    }
+
 }
     
 
@@ -559,6 +583,20 @@ img {
     .agenda h2 {
         font-size: 1.4rem;
         color: #3c0d9c;
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        filter: invert(100%);
+        margin-top: 40rem;
+    }
+
+    .carousel-control-next-icon {
+        margin-left: 0rem;
+    }
+
+    .carousel-control-prev-icon {
+        margin-right: 0rem;
     }
 
 }

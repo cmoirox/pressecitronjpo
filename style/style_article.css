@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'lecitroncamordregular';
+    src: url('./fonts/lecitroncamord-regular-webfont.eot');
+    src: url('./fonts/lecitroncamord-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/lecitroncamord-regular-webfont.woff2') format('woff2'),
+         url('./fonts/lecitroncamord-regular-webfont.woff') format('woff'),
+         url('./fonts/lecitroncamord-regular-webfont.ttf') format('truetype'),
+         url('./fonts/lecitroncamord-regular-webfont.otf') format('opentype'),
+         url('./fonts/lecitroncamord-regular-webfont.svg#lecitroncamordregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'lecitroncamordregular', sans-serif;
+    background-color: #fff4ad;
+}
+
+.custom-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    text-align: left;
+    font-size: 2.5rem;
+    font-style: italic;
+    color: #3c0d9c;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.article-content {
+    background-color: transparent;
+    border: 1px solid #3c0d9c;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.main-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+section {
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.signature {
+    color: #3c0d9c;
+    text-align: right;
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.bottom-article-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.bottom-article-image:hover {
+    transform: scale(1.02);
+}
+
+@media (max-width: 575.98px) {
+    .article-content {
+        background-color: transparent;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+
+    h1 {
+        text-align: left;
+        font-size: 1.3rem;
+        color: #3c0d9c;
+        padding-left: 1rem;
+        padding-top: 3rem;
+        padding-bottom: 0rem;
+        font-style: italic;
+    }
+
+    section {
+        text-align: left;
+        font-size: 1rem;
+        color: #333;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+}
