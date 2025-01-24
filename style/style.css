@@ -286,6 +286,12 @@ img {
     margin-bottom: 2rem;
 }
 
+.container.actus p {
+    color: #333;
+    font-size: 1.3rem;
+    
+}
+
 .citronnade {
     color: #3c0d9c;
     font-style: italic;
@@ -350,6 +356,11 @@ img {
     width: 100%;
     height: auto;
     display: block;
+}
+
+.additional-text {
+    font-size: 1.2rem;
+    color: #3c0d9c;
 }
 
 /* Customisation du carousel */
