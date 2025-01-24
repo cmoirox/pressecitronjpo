@@ -528,6 +528,12 @@ img {
         margin-right: 0rem;
     }
 
+    .container.actus p {
+        color: #333;
+        font-size: 1.1rem;
+        
+    }
+
 }
     
 
@@ -608,6 +614,12 @@ img {
 
     .carousel-control-prev-icon {
         margin-right: 0rem;
+    }
+
+    .container.actus p {
+        color: #333;
+        font-size: 1.1rem;
+        
     }
 
 }
