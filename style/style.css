@@ -175,7 +175,7 @@ img {
     align-items: center;
     font-size: 1.5em;
     font-family: 'lecitroncamordregular', sans-serif;
-    margin-right: 3rem;
+    margin-right: 5rem;
 }
 
 .nav-link:active {
@@ -442,6 +442,82 @@ img {
     text-decoration: none;
 }
 
+
+/* actu */
+#actualites h1 {
+    font-size: 3rem;
+    color: #3c0d9c;
+    margin-top: 7rem;
+    margin-left: 1.4rem;
+}
+  
+
+#carouselActualites {
+    position: relative;
+}
+  
+/* Fixer la hauteur du carousel en fonction du texte */
+#carouselActualites .carousel-inner,
+#carouselActualites .carousel-item {
+    height: 500px; /* augmenter avec le texte */
+}
+  
+
+#carouselActualites .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+
+#carouselActualites .text-content {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+
+#carouselActualites .text-content h5 {
+    font-size: 1.2rem;
+    color: #3c0d9c;
+    margin-bottom: 15px;
+}
+  
+
+#carouselActualites .text-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    margin: 0;
+}
+  
+  
+
+#carouselActualites .carousel-indicators {
+    bottom: auto;
+    top: 30rem;
+}
+  
+
+#carouselActualites .carousel-indicators button {
+    background-color: #fff;
+    opacity: 0.3;
+}
+  
+
+#carouselActualites .carousel-indicators .active {
+    opacity: 1;
+    background-color: #3c0d9c;
+}
+  
+  
+#carouselActualites .carousel-control-prev-icon,
+#carouselActualites .carousel-control-next-icon {
+    border-radius: 50%;
+    padding: 10px;
+    margin-top: 18rem;
+}
+
+
 @media screen and (min-width: 1200px) {
     
 }
@@ -532,6 +608,43 @@ img {
         color: #333;
         font-size: 1.1rem;
         
+    }
+
+    /* Fixer la hauteur du carousel en fonction du texte */
+    #carouselActualites .carousel-inner,
+    #carouselActualites .carousel-item {
+    height: 750px; /* augmenter avec le texte */
+    }
+
+    #carouselActualites .carousel-indicators {
+        bottom: auto;
+        top: 50rem;
+    }
+      
+    
+    #carouselActualites .carousel-indicators button {
+        background-color: #fff;
+        opacity: 0.3;
+    }
+      
+    
+    #carouselActualites .carousel-indicators .active {
+        opacity: 1;
+        background-color: #3c0d9c;
+    }
+      
+      
+    #carouselActualites .carousel-control-prev-icon,
+    #carouselActualites .carousel-control-next-icon {
+        border-radius: 50%;
+        padding: 10px;
+        margin-top: 42rem;
+    }
+
+    #carouselActualites .text-content h5 {
+        font-size: 1.2rem;
+        color: #3c0d9c;
+        margin-top: 2rem;
     }
 
 }
