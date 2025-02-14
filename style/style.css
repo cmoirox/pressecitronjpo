@@ -164,10 +164,10 @@ img {
 /* Positionnement de l'image en haut à gauche pour les versions responsives */
 .img-responsive-top-left {
     position: absolute;
-    top: 3rem; /* Ajustez la valeur selon vos besoins */
-    left: 10px; /* Ajustez la valeur selon vos besoins */
-    width: 10rem; /* Ajustez la taille de l'image selon vos besoins */
-    z-index: 1000; /* Assurez-vous que l'image soit au-dessus des autres éléments */
+    top: 3rem;
+    left: 10px;
+    width: 10rem;
+    z-index: 1000;
 }
 
 .nav-link {
@@ -175,7 +175,7 @@ img {
     align-items: center;
     font-size: 1.5em;
     font-family: 'lecitroncamordregular', sans-serif;
-    margin-right: 5rem;
+    margin-right: 5rem; /* modif espacement entre les menus */
 }
 
 .nav-link:active {
@@ -195,7 +195,7 @@ img {
 .navbar-nav {
     align-items: center;
     background-color: #fff4ad;
-    margin-left: 10rem;
+    margin-left: 8rem; /* modif placement du menu */
 }
 
 .navbar {
@@ -210,7 +210,7 @@ img {
 }
 
 .bg-custom {
-    background-color: #fff4ad; /* Couleur claire */
+    background-color: #fff4ad;
 }
 
 .footer {
@@ -455,8 +455,7 @@ img {
 #carouselActualites {
     position: relative;
 }
-  
-/* Fixer la hauteur du carousel en fonction du texte */
+
 #carouselActualites .carousel-inner,
 #carouselActualites .carousel-item {
     height: 500px; /* augmenter avec le texte */
@@ -515,6 +514,45 @@ img {
     border-radius: 50%;
     padding: 10px;
     margin-top: 18rem;
+}
+
+/* partenaires */
+.partenaires {
+    background: #ffffff;
+    margin-top: 0px;
+    white-space: nowrap;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.logo-container {
+    display: inline-block;
+    animation: slide 40s infinite linear;
+}
+
+.logo-slide {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo-slide img {
+    height: 30px;
+    margin: 0 50px;
+}
+
+.footer {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 
@@ -610,7 +648,7 @@ img {
         
     }
 
-    /* Fixer la hauteur du carousel en fonction du texte */
+    
     #carouselActualites .carousel-inner,
     #carouselActualites .carousel-item {
     height: 750px; /* augmenter avec le texte */
@@ -645,6 +683,32 @@ img {
         font-size: 1.2rem;
         color: #3c0d9c;
         margin-top: 2rem;
+    }
+
+    .partenaires {
+        display: flex;
+        flex-direction: row;     
+        flex-wrap: nowrap;       
+        overflow-x: auto;        
+        align-items: center;     
+        white-space: nowrap;     
+    }
+  
+    .logo-slide {
+        flex: 0 0 auto;          
+        padding: 10px 0;
+
+    }
+    
+    .logo-slide img {
+        height: 40px;
+        margin: 0 30px; 
+
+    }
+  
+    .logo-container {
+        display: inline-block;
+        animation: slide 30s infinite linear;
     }
 
 }
