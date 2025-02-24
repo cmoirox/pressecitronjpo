@@ -448,7 +448,12 @@ img {
     font-size: 3rem;
     color: #3c0d9c;
     margin-top: 7rem;
-    margin-left: 1.4rem;
+}
+
+.chapeau-texte {
+    font-size: 1.3rem;
+    color: #333;          
+    margin-bottom: 1.5rem; 
 }
   
 
@@ -513,7 +518,7 @@ img {
 #carouselActualites .carousel-control-next-icon {
     border-radius: 50%;
     padding: 10px;
-    margin-top: 18rem;
+    margin-top: 10rem;
 }
 
 /* partenaires */
@@ -676,7 +681,7 @@ img {
     #carouselActualites .carousel-control-next-icon {
         border-radius: 50%;
         padding: 10px;
-        margin-top: 42rem;
+        margin-top: 25rem;
     }
 
     #carouselActualites .text-content h5 {
@@ -709,6 +714,10 @@ img {
     .logo-container {
         display: inline-block;
         animation: slide 30s infinite linear;
+    }
+
+    .chapeau-texte {
+        font-size: 1.1rem;
     }
 
 }
