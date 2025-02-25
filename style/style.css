@@ -532,7 +532,7 @@ img {
 
 .logo-container {
     display: inline-block;
-    animation: slide 40s infinite linear;
+    animation: slide 30s infinite linear;
 }
 
 .logo-slide {
@@ -556,7 +556,7 @@ img {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-50%);
+        transform: translateX(-100%);
     }
 }
 
@@ -714,6 +714,15 @@ img {
     .logo-container {
         display: inline-block;
         animation: slide 30s infinite linear;
+    }
+  
+    @keyframes slide {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-220%);
+        }
     }
 
     .chapeau-texte {
