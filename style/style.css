@@ -532,7 +532,7 @@ img {
 
 .logo-container {
     display: inline-block;
-    animation: slide 30s infinite linear;
+    animation: slide 50s infinite linear;
 }
 
 .logo-slide {
@@ -556,7 +556,7 @@ img {
         transform: translateX(0);
     }
     100% {
-        transform: translateX(-100%);
+        transform: translateX(-120%);
     }
 }
 
@@ -712,18 +712,19 @@ img {
     }
   
     .logo-container {
-        display: inline-block;
-        animation: slide 30s infinite linear;
-    }
+        display: flex;
+        width: 200%; /* Si vous avez deux slides identiques */
+        animation: slide 50s infinite linear;
+    }    
   
     @keyframes slide {
         from {
             transform: translateX(0);
         }
         to {
-            transform: translateX(-220%);
+            transform: translateX(-700%);
         }
-    }
+    }    
 
     .chapeau-texte {
         font-size: 1.1rem;
