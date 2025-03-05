@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Trophée Presse Citron/BnF</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/bootstrap.min.css"> 
+    <link rel="stylesheet" type="text/css" href="./style/style_vote.css">
+    <link rel="icon" type="image/png" href="./images/favicon-vide.png"/>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <!-- Conteneur principal qui occupe toute la hauteur -->
+    <div class="container-fluid main-container d-flex flex-column min-vh-100 p-0">
+        <header class="navbar fixed-top navbar-expand-lg navbar-light bg-custom px-1">
+            <div class="container">
+                <!-- Bouton hamburger -->
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation" style="background-color: transparent; border: none;">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu de navigation centré -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarMenu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#étudiants">Vote concours étudiants</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#prix-échappé">Vote prix échappé</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#professionnels">Vote concours professionnels</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="flex-grow-1 d-flex">
+            <div class="background-fixed">
+                <!-- Fond fixe, optionnellement vide ou avec du contenu -->
+            </div>
+
+            <!-- Image en haut à gauche pour les versions responsives -->
+            <img src="./images/logo-responsive.png" class="img-responsive-top-left d-block d-md-none" alt="Image Responsive">
+
+                <div class="container-fluid">
+                <!-- Première ligne pour le contenu principal -->
+                    <div class="row">
+                        <!-- Colonne gauche pour l'image -->
+                        <div class="col-lg-3 col-md-4 d-none d-md-block sidebar">
+                            <img src="./images/titrex2-quali.png" class="img-fluid" alt="Image Côté Gauche">
+                        </div>
+                    <!-- Colonne principale pour le contenu -->
+                        <div class="col-lg-7 col-md-8 col-sm-12 d-flex flex-column align-items-center">
+
+                            <div class="texte">
+                                <p class="text-center">
+                                  Galerie des votes :
+                                </p>
+                              </div>
+
+                            <div class="gallery-section" id="étudiants">
+                                <h2 class="ligne-bloc">Dessins concours étudiants</h2>
+                                <div class="container">
+                                  <div class="row gallery-row">
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test.jpg" alt="Dessin étudiant 1" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 1</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test.jpg" alt="Dessin étudiant 2" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 2</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test.jpg" alt="Dessin étudiant 3" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 3</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test.jpg" alt="Dessin étudiant 4" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 4</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test.jpg" alt="Dessin étudiant 5" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 5</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test.jpg" alt="Dessin étudiant 6" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 6</figcaption>
+                                      </figure>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <!-- Section 2 : Dessins prix auquel vous avez échappé -->
+                              <div class="gallery-section" id="prix-échappé">
+                                <h2 class="ligne-bloc">Dessins prix auquel vous avez échappé</h2>
+                                <div class="container">
+                                  <div class="row gallery-row">
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test3.png" alt="Dessin prix échappés 1" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 1</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test3.png" alt="Dessin prix échappés 2" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 2</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test3.png" alt="Dessin prix échappés 3" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 3</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test3.png" alt="Dessin prix échappés 4" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 4</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test3.png" alt="Dessin prix échappés 5" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 6</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test3.png" alt="Dessin prix échappés 6" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 6</figcaption>
+                                      </figure>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <!-- Section 3 : Dessins concours professionnels -->
+                              <div class="gallery-section" id="professionnels">
+                                <h2 class="ligne-bloc">Dessins concours professionnels</h2>
+                                <div class="container">
+                                  <div class="row gallery-row">
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test4.jpg" alt="Dessin prix professionnel 1" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 1</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test4.jpg" alt="Dessin prix professionnel 2" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 2</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test4.jpg" alt="Dessin prix professionnel 3" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 3</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test4.jpg" alt="Dessin prix professionnel 4" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 4</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test4.jpg" alt="Dessin prix professionnel 5" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 5</figcaption>
+                                      </figure>
+                                    </div>
+                                    <div class="col-6 col-md-4">
+                                      <figure class="figure text-center">
+                                        <img src="./images/vote_img/test4.jpg" alt="Dessin prix professionnel 6" class="img-fluid">
+                                        <figcaption class="figure-caption">Texte image 6</figcaption>
+                                      </figure>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Fin des sections galerie -->
+                            </div>
+
+                    <!-- Colonne droite -->
+                    <div class="col-lg-2 col-md-4 d-none d-md-block sidebar-right">
+                        <img src="./images/32eme-quali.png" class="img-fluid" alt="Image Côté Droit">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer bg-custom text-center">  
+      </footer>
+    </div>
+    <!-- Inclusion des scripts Bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<script>
+    document.querySelectorAll('a.nav-link').forEach(link => {
+        link.addEventListener('click', function(e) {
+            const targetId = this.getAttribute('href').substring(1); // Récupère l'ID de l'ancre
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                e.preventDefault();
+                const navbarHeight = document.querySelector('.navbar').offsetHeight;
+                const elementPosition = targetElement.offsetTop;
+                const offsetPosition = elementPosition - navbarHeight;
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            }
+        });
+    });
+</script>
+</html>
