@@ -1,0 +1,545 @@
+@font-face {
+    font-family: 'lecitroncamordregular';
+    src: url('./fonts/lecitroncamord-regular-webfont.eot');
+    src: url('./fonts/lecitroncamord-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/lecitroncamord-regular-webfont.woff2') format('woff2'),
+         url('./fonts/lecitroncamord-regular-webfont.woff') format('woff'),
+         url('./fonts/lecitroncamord-regular-webfont.ttf') format('truetype'),
+         url('./fonts/lecitroncamord-regular-webfont.otf') format('opentype'),
+         url('./fonts/lecitroncamord-regular-webfont.svg#lecitroncamordregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px; /* Base pour rem calculations */
+}
+
+body {
+    font-family: 'lecitroncamordregular', sans-serif;
+    background-color: #fff4ad;
+    font-size: 1rem; /* 16px */
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'lecitroncamordregular', sans-serif;
+    font-size: 3em;
+	font-style: normal;
+	font-weight: 500;
+    text-align: center;
+    color: #3c0d9c;
+    line-height: 1.3em;
+}
+
+h2{
+	font-family: 'lecitroncamordregular', sans-serif;
+    font-size: 2em;
+	font-style: normal;
+	font-weight: 500;
+    text-align: center;
+    color: #3c0d9c;
+    line-height: 1.3em;
+}
+
+h3{
+    font-family: 'lecitroncamordregular', sans-serif;
+    font-size: 1.3em;
+	font-style: normal;
+	font-weight: 500;
+    text-align: center;
+    color: #3c0d9c;
+    line-height: 1.2em;
+}
+
+h5{
+    font-family: 'lecitroncamordregular', sans-serif;
+    font-size: 1.1em;
+	font-style: normal;
+	font-weight: 500;
+    text-align: center;
+    color: #3c0d9c;
+    line-height: 1.2em;
+}
+
+.background-fixed {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 5rem;
+    background-image: url('../images/croquecitron.gif'); 
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-size: cover;
+    background-attachment: fixed;
+    transform: scale(1.25); /* Agrandit l'image de 10% */
+    transform-origin: center; /* Centre le point de transformation */
+}
+
+p{
+	font-family: 'lecitroncamordregular', sans-serif;
+    font-size: 0.9rem;
+	font-style: normal;
+	font-weight: 500;
+    text-align: left;
+    color: #3c0d9c;
+    line-height: 1.2rem;
+}
+
+
+.container-fluid{
+	max-width: 95%;
+	margin: 15px auto;
+	margin-bottom: 30rem;
+}
+
+.container-fluid .title {
+	color: #3c0d9c;
+	border-radius: 5px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.intro{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin-bottom: 5rem;
+}
+
+.title{
+	margin-bottom: 5rem;
+}
+
+.container-fluid .image-container{
+	columns: 4 250px;
+	gap: 25px;
+}
+
+.container-fluid .image-container img{
+	margin-top: 15px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	max-width: 800px;
+	width: 100%;
+}
+
+.desc{
+	font-family: 'lecitroncamordregular', sans-serif;
+    font-size: 0.8rem;
+	font-style: normal;
+	font-weight: 500;
+    text-align: center;
+    color: #3c0d9c;
+    line-height: 0.8rem;
+}
+
+figcaption {
+	font-family: 'lecitroncamordregular', sans-serif;
+    font-size: 0.8rem;
+	font-style: normal;
+	font-weight: 500;
+    text-align: center;
+    color: #3c0d9c;
+    line-height: 0.8rem;
+}
+
+.gagnant{
+	height:100%;
+	max-height: 350px;
+	width: auto;
+	border-radius: 3px;
+	margin: 10px;
+}
+
+.gagnants{
+	margin-bottom:10px;
+	display: flex;
+	align-items: center;
+	justify-content:center;
+}
+
+.gagnants-2{
+	margin-bottom:10px;
+	display: flex;
+	align-items: start;
+	justify-content:center;
+}
+
+.lauréats{
+	margin-bottom:70px;
+	margin-left: 30px;
+	margin-right:30px;
+}
+
+
+/* marge haut bas */
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    min-height: 100vh;
+}
+
+.flex-grow-1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-fixed {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 5rem;
+    background-image: url('../images/croquecitron.gif'); 
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    background-size: cover;
+    background-attachment: fixed;
+    transform: scale(1.25); /* Agrandit l'image de 10% */
+    transform-origin: center; /* Centre le point de transformation */
+}
+
+.rayure {
+    text-decoration: line-through;
+}
+
+
+.sidebar {
+    background-color: #fff4ad;
+    padding: 15px;
+    min-height: 100vh;
+    margin-top: -65rem;
+}
+
+.sidebar img, .sidebar-right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sidebar-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 15px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.sidebar-right img {
+    display: block;
+    max-width: 30%;
+    margin-left: 10rem;
+    margin-top: 3.5rem;
+    height: auto;
+}
+
+.sidebar-right img {
+    display: block;
+    margin-left: 65%;
+}
+
+.section {
+    border: 1px solid #3c0d9c; 
+    border-radius: 10px;
+    position: relative;
+    margin-top: 2.5rem;
+    width: 100%;
+    
+}
+
+.custom-margin {
+    align-items: center;
+}
+
+.ligne-bloc {
+    font-family: 'lecitroncamordregular', sans-serif;
+    padding-top: 3%;
+    padding-bottom: 1.5%;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-align: center;
+    color: #3c0d9c;
+    line-height: 1.5;
+}
+
+.btn-custom, .btn-custom-color {
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    min-height: 52px;
+    transition: all 0.3s ease;
+}
+
+.btn-custom {
+    border: 1px solid #3c0d9c;
+    color: #3c0d9c;
+    background-color: transparent;
+    margin: 0.5rem;
+}
+
+.btn-custom:hover {
+    background-color: #3c0d9c;
+    color: #fff;
+}
+
+.btn-custom-color {
+    background-color: #3c0d9c;
+    color: #fff;
+    border: none;
+    margin: 0.5rem;
+}
+
+.btn-custom-color:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #717171;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Positionnement de l'image en haut à gauche pour les versions responsives */
+.img-responsive-top-left {
+    position: absolute;
+    top: 3rem;
+    left: 10px;
+    width: 10rem;
+    z-index: 1000;
+}
+
+/* modif menus */
+.nav-link {
+    color: #3c0d9c;
+    align-items: center;
+    font-size: 1.3em;
+    font-family: 'lecitroncamordregular', sans-serif;
+    margin-right: 2rem; /* modif espacement entre les menus */
+}
+
+.nav-link:active {
+    color: #3c0d9c;
+    text-decoration: underline;
+}
+
+.nav-link:hover {
+    color: #3c0d9c;
+    text-decoration: underline;
+}
+
+.nav-link::after {
+    color: #3c0d9c;
+}
+
+.navbar-nav {
+    align-items: center;
+    background-color: #fff4ad;
+    margin-left: 8rem; /* modif placement du menu */
+}
+
+.navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: #fff4ad;
+}
+
+.nav-item{
+    color: #3c0d9c;
+    align-items: center;
+}
+
+.bg-custom {
+    background-color: #fff4ad;
+}
+
+.footer {
+    background-color: #fff4ad;
+}
+
+
+/* partenaires */
+.partenaires {
+    background: #ffffff;
+    margin-top: 0px;
+    white-space: nowrap;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.logo-container {
+    display: inline-block;
+    animation: slide 50s infinite linear;
+}
+
+.logo-slide {
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo-slide img {
+    height: 30px;
+    margin: 0 50px;
+}
+
+.footer {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-120%);
+    }
+}
+
+@media (min-width: 768px) {
+    .background-fixed {
+      /* Soit tu enlèves simplement l'image : */
+      background-image: none !important;
+      background-size: auto !important;
+      background-position: initial !important;
+      background-attachment: scroll !important;
+      transform: none !important;
+      
+      /* Ou encore plus radical : masquer complètement la div si tu n’en as pas besoin */
+      /* display: none !important; */
+    }
+  }   
+
+@media (max-width: 767.98px) {
+    body {
+        font-size: 1rem; /* 16px */
+    }
+
+    .main-container {
+        margin-top: 40rem;
+    }
+
+    .custom-margin {
+        align-items: center;
+    }
+
+    .ligne-bloc {
+        font-family: 'lecitroncamordregular', sans-serif;
+        font-size: 1em;
+        font-weight: 500;
+        text-align: center;
+        color: #3c0d9c;
+        margin: 1rem 0;
+        line-height: 1.5;
+    }
+
+    .presentation h3 {
+        font-size: 1rem;
+        color: #3c0d9c;
+    }
+
+    .background-fixed {
+        background-size: 250%;
+        left: 0;
+        margin-top: 60px;
+        margin-left: 40px;
+        transform: scale(0.8);
+        background-position: center top;
+    }
+
+    .btn-custom, .btn-custom-color {
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+        font-size: 0.6rem;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        min-height: 30px;
+        transition: all 0.3s ease;
+    }
+
+    .nav-link {
+        color: #3c0d9c;
+        align-items: center;
+        font-size: 1.25em;
+        font-family: 'lecitroncamordregular', sans-serif;
+        margin-right: 5rem; /* modif espacement entre les menus */
+    }
+
+    .navbar-nav {
+        align-items: center;
+        background-color: transparent;
+        margin-left: 5rem;
+    }
+    
+    .navbar {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        background-color: #fff4ad;
+    }
+
+    .partenaires {
+        display: flex;
+        flex-direction: row;     
+        flex-wrap: nowrap;       
+        overflow-x: auto;        
+        align-items: center;     
+        white-space: nowrap;     
+    }
+  
+    .logo-slide {
+        flex: 0 0 auto;          
+        padding: 10px 0;
+
+    }
+    
+    .logo-slide img {
+        height: 40px;
+        margin: 0 30px; 
+
+    }
+  
+    .logo-container {
+        display: flex;
+        width: 200%; /* Si vous avez deux slides identiques */
+        animation: slide 50s infinite linear;
+    }    
+  
+    @keyframes slide {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translateX(-700%);
+        }
+    }    
+
+    .chapeau-texte {
+        font-size: 1.1rem;
+    }
+
+}
+    

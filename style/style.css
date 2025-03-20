@@ -60,6 +60,11 @@ body {
     transform-origin: center; /* Centre le point de transformation */
 }
 
+.rayure {
+    text-decoration: line-through;
+}
+
+
 .sidebar {
     background-color: #fff4ad;
     padding: 15px;
@@ -170,12 +175,13 @@ img {
     z-index: 1000;
 }
 
+/* modif menus */
 .nav-link {
     color: #3c0d9c;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-family: 'lecitroncamordregular', sans-serif;
-    margin-right: 5rem; /* modif espacement entre les menus */
+    margin-right: 2rem; /* modif espacement entre les menus */
 }
 
 .nav-link:active {
@@ -614,23 +620,24 @@ img {
         transition: all 0.3s ease;
     }
 
-    .nav-link{
+    .nav-link {
         color: #3c0d9c;
-        font-size: 1.3em;
-        margin-top: 5px;
-        margin-left: 25px;
+        align-items: center;
+        font-size: 1.25em;
+        font-family: 'lecitroncamordregular', sans-serif;
+        margin-right: 5rem; /* modif espacement entre les menus */
     }
 
     .navbar-nav {
         align-items: center;
         background-color: transparent;
-        margin-left: 15rem;
+        margin-left: 5rem;
     }
     
     .navbar {
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
-        background-color: transparent;
+        background-color: #fff4ad;
     }
 
     .carousel-control-prev-icon,
@@ -773,49 +780,4 @@ img {
         min-height: 30px;
         transition: all 0.3s ease;
     }
-
-    .nav-link{
-        color: #3c0d9c;
-        font-size: 1.3em;
-        margin-top: 5px;
-        margin-left: 25px;
-    }
-
-    .navbar-nav {
-        align-items: center;
-        background-color: transparent;
-        margin-left: 15rem;
-    }
-    
-    .navbar {
-        padding-top: 0.5rem;
-        padding-bottom: 0.5rem;
-        background-color: transparent;
-    }
-
-    .agenda h2 {
-        font-size: 1.4rem;
-        color: #3c0d9c;
-    }
-
-    .carousel-control-prev-icon,
-    .carousel-control-next-icon {
-        filter: invert(100%);
-        margin-top: 40rem;
-    }
-
-    .carousel-control-next-icon {
-        margin-left: 0rem;
-    }
-
-    .carousel-control-prev-icon {
-        margin-right: 0rem;
-    }
-
-    .container.actus p {
-        color: #333;
-        font-size: 1.1rem;
-        
-    }
-
 }
